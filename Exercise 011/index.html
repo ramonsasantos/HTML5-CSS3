@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes! Ou, simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+    <source media="(max-width:750px)" srcset="Imagens/Imagem Pequena.png" type="image/png">
+    <source media="(max-width:1000px)" srcset="Imagens/Imagem Média.png" type="image/png">
+    <img src="Imagens/Imagem Grande.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5!</p>
+    <audio src="Midias/rainbow road.mp3.mp3" controls autoplay></audio>
+    <p href="Midias/rainbow road.mp3.mp3">Clique para baixar o aúdio.</p>
+    <!--MP3, WAV, OGG, formas de media types-->
+    <!--Evitar arquivos de áudio WAV, pois são muito pesados!-->
+    <!--Lembrar de usar o Audio Library do YouTube Studio-->
+</body>
+</html>
